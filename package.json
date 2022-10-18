@@ -1,0 +1,25 @@
+{
+  "name": "testnodedcgit",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubhadipPore/TestNodeDcGit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShubhadipPore/TestNodeDcGit/issues"
+  },
+  "homepage": "https://github.com/ShubhadipPore/TestNodeDcGit#readme",
+  "description": ""
+}
