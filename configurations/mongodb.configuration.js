@@ -6,9 +6,9 @@ async function main(){
      * See https://docs.mongodb.com/ecosystem/drivers/node/ for more details
      */
     //const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
-    const uri = "mongodb+srv://mymongodb:<password>@cluster0.la4tkyv.mongodb.net/test";
+    const uri = "mongodb+srv://mymongodb:Shubha@7@cluster0.la4tkyv.mongodb.net/test?retryWrites=true&w=majority";
  
-
+    //mongosh "mongodb+srv://cluster0.la4tkyv.mongodb.net/myFirstDatabase" --apiVersion 1 --username mymongodb
     const client = new MongoClient(uri);
  
     try {

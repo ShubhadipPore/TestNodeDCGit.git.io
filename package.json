@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.6.6",
     "nodemon": "^2.0.20"
@@ -22,6 +24,5 @@
     "url": "https://github.com/ShubhadipPore/TestNodeDcGit/issues"
   },
   "homepage": "https://github.com/ShubhadipPore/TestNodeDcGit#readme",
-  "description": "Test Full Set up",
-  "devDependencies": {}
+  "description": "Test Full Set up"
 }
