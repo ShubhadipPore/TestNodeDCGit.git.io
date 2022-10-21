@@ -22,5 +22,6 @@
     "url": "https://github.com/ShubhadipPore/TestNodeDcGit/issues"
   },
   "homepage": "https://github.com/ShubhadipPore/TestNodeDcGit#readme",
-  "description": ""
+  "description": "Test Full Set up",
+  "devDependencies": {}
 }

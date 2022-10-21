@@ -6,7 +6,7 @@ async function main(){
      * See https://docs.mongodb.com/ecosystem/drivers/node/ for more details
      */
     //const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
-    const uri = "mongodb://localhost:27017/";
+    const uri = "mongodb+srv://mymongodb:<password>@cluster0.la4tkyv.mongodb.net/test";
  
 
     const client = new MongoClient(uri);
@@ -22,6 +22,7 @@ async function main(){
     } catch (e) {
         console.error(e);
     } finally {
+        //console.log("Mongo Not Connected");
         await client.close();
     }
 }

@@ -2,8 +2,9 @@ const express = require('express')
 const app = express();
 
 
+
 app.get('/', (req,res)=>(
-    res.send("Docker Working and Git also ..bgbh..")));
+    res.send("Docker Working and Git also ....")));
 app.listen(3000,()=>console.log("Server Working"));
 
 
