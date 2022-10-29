@@ -5,14 +5,15 @@ const mongoose = require('mongoose');
 const cors = require("cors");
 const router = require('./src/routes/inmaterial.router');
 
-dotenv.config();
+const uri =
+  "mongodb+srv://mymongodb:KjnaZ1kwonbdDP25@cluster0.la4tkyv.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(
-    process.env.DB_CONNECT,
-    {useUnifiedTopology : true, useNewUrlParser : true},
-    ()=>console.log("Mongo Connected")
-
+    uri,
+  { useUnifiedTopology: true, useNewUrlParser: true },
+  () => console.log("connected to db")
 );
+
 
 app.use(express.json());
 app.use(cors());
@@ -22,6 +23,6 @@ app.use("/api/inmaterials", router);
 
 app.get('/', (req,res)=>(
     res.send("Docker Working and Git also ....")));
-app.listen(3000,()=>console.log("Server Working"));
+app.listen(3001,()=>console.log("Server Working"));
 
 
